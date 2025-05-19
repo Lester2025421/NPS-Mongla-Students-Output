@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Showcase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-indigo-600 text-white p-6 text-center shadow-md">
+    <h1 class="text-3xl font-bold">NPS Student Showcase</h1>
+    <p class="text-sm mt-1">Celebrating our students' creativity and achievements</p>
+  </header>
+
+  <main class="p-6 max-w-6xl mx-auto">
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <!-- Student Card Example -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img class="w-full h-48 object-cover" src="student1-photo.jpg" alt="Student 1 Photo">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold">Student Name 1</h2>
+          <p class="text-sm text-gray-600">Grade 5 - Science Fair Project</p>
+          <video class="mt-3 w-full rounded-lg" controls>
+            <source src="student1-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- More student cards -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img class="w-full h-48 object-cover" src="student2-photo.jpg" alt="Student 2 Photo">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold">Student Name 2</h2>
+          <p class="text-sm text-gray-600">Grade 6 - Art Exhibition</p>
+          <video class="mt-3 w-full rounded-lg" controls>
+            <source src="student2-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+
+    </section>
+  </main>
+
+  <footer class="text-center py-4 mt-10 bg-white shadow-inner text-sm text-gray-500">
+    © 2025 NPS. All rights reserved.
+  </footer>
+</body>
+</html>
